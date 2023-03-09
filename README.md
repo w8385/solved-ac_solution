@@ -10,7 +10,7 @@
 
 ---
 ## 2. 티어 시스템
-사용자의 티어는 AC 레이팅에 따라 결정됩니다.   
+사용자의 티어는 `AC 레이팅`에 따라 결정됩니다.   
 AC 레이팅의 산정 기준은 아래와 같습니다.
 
 1. ratingByProblemsSum
@@ -19,10 +19,9 @@ AC 레이팅의 산정 기준은 아래와 같습니다.
 4. ratingByVoteCount
 
 ### 2.1. ratingByProblemsSum
-ratingByProblemsSum은 자신이 푼 상위 100문제의 난이도 합에 따른 레이팅입니다.   
+ratingByProblemsSum은 `자신이 푼 상위 100문제의 난이도 합`에 따른 레이팅입니다.   
 난이도는 Unrated부터 Ruby 1까지 0~30까지의 정수로 표현됩니다.   
 각 난이도별 획득 가능한 점수는 아래와 같습니다.
-
 
 <table>
   <thead>
@@ -92,7 +91,7 @@ ratingByProblemsSum은 자신이 푼 상위 100문제의 난이도 합에 따른
 </table>
 
 ### 2.2. ratingByClass
-ratingByClass는 자신이 취득한 클래스에 따른 레이팅입니다.   
+ratingByClass는 `자신이 취득한 클래스에 따른 레이팅`입니다.   
 최대 250점을 획득할 수 있으며, 클래스 5까지는 획득하는 것이 효율이 높습니다.   
 각 클래스별 획득 가능한 점수는 아래와 같습니다.
 
@@ -141,7 +140,7 @@ ratingByClass는 자신이 취득한 클래스에 따른 레이팅입니다.
 </table>
 
 ### 2.3. ratingBySolvedCount
-ratingBySolvedCount은 자신이 푼 문제 수에 따른 레이팅입니다.   
+ratingBySolvedCount은 `자신이 푼 문제 수에 따른 레이팅`입니다.   
 1140문제 정도 해결시, 최대치인 175점을 얻을 수 있습니다.
 
 ```math
@@ -151,7 +150,8 @@ ratingBySolvedCount은 자신이 푼 문제 수에 따른 레이팅입니다.
 ```
 
 ### 2.4. ratingByVoteCount
-ratingByVoteCount은 자신이 기여한 문제 수에 따른 레이팅입니다.   
+ratingByVoteCount은 `자신이 기여한 문제 수에 따른 레이팅`입니다.   
+P5 이상 사용자에 한해 기여 내역과 점수가 인정됩니다.   
 100문제 정도 기여시, 최대치인 25점을 얻을 수 있습니다.
 
 ```math
