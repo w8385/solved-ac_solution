@@ -1,6 +1,7 @@
 # solved.ac solution
 [solved.ac](https://solved.ac) 시스템 이해를 돕기 위한 문서입니다.   
 [비공식 API 문서](https://solvedac.github.io/unofficial-documentation/#/)를 참고하여 제작하였습니다.   
+/bin 디렉토리에는 solved.ac의 API를 이용한 간단한 예제가 있습니다.   
 원작자의 요청에 따라 언제든 지워질 수 있습니다.
 
 ## 1. solved.ac
