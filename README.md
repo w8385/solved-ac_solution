@@ -7,13 +7,13 @@
 [solved.ac](https://solved.ac)는 [BOJ](https://acmicpc.net) 문제들에 태그와 난이도를 붙이는 커뮤니티 프로젝트입니다.
 
 ## 2. 티어 시스템
-사용자의 티어는 AC 레이팅에 따라 결정됩니다.
+사용자의 티어는 AC 레이팅에 따라 결정됩니다.   
 AC 레이팅의 산정 기준은 아래와 같습니다.
 
-- ratingByProblemsSum
-- ratingByClass
-- ratingBySolvedCount
-- ratingByVoteCount
+1. ratingByProblemsSum
+2. ratingByClass
+3. ratingBySolvedCount
+4. ratingByVoteCount
 
 ### 2.1. ratingByProblemsSum
 ratingByProblemsSum은 자신이 푼 상위 100문제의 난이도 합에 따른 레이팅입니다.   
