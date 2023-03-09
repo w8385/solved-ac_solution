@@ -15,7 +15,7 @@ AC 레이팅의 산정 기준은 아래와 같습니다.
 2. ratingByClass
 3. ratingBySolvedCount
 4. ratingByVoteCount
-
+---
 ### 2.1. ratingByProblemsSum
 ratingByProblemsSum은 자신이 푼 상위 100문제의 난이도 합에 따른 레이팅입니다.   
 난이도는 Unrated부터 Ruby 1까지 0~30까지의 정수로 표현됩니다.   
@@ -89,6 +89,7 @@ ratingByProblemsSum은 자신이 푼 상위 100문제의 난이도 합에 따른
   </tbody>
 </table>
 
+---
 ### 2.2. ratingByClass
 ratingByClass는 자신이 취득한 클래스에 따른 레이팅입니다.   
 최대 250점을 획득할 수 있으며, 클래스 5까지는 획득하는 것이 효율이 높습니다.   
@@ -138,7 +139,7 @@ ratingByClass는 자신이 취득한 클래스에 따른 레이팅입니다.
   </tbody>
 </table>
 
-
+---
 ### 2.3. ratingBySolvedCount
 ratingBySolvedCount은 자신이 푼 문제 수에 따른 레이팅입니다.   
 1140문제 정도 해결시, 최대치인 175점을 얻을 수 있습니다.
@@ -150,6 +151,7 @@ ratingBySolvedCount은 자신이 푼 문제 수에 따른 레이팅입니다.
 \end{align}
 ```
 
+---
 ### 2.4. ratingByVoteCount
 ratingByVoteCount은 자신이 기여한 문제 수에 따른 레이팅입니다.   
 100문제 정도 기여시, 최대치인 25점을 얻을 수 있습니다.
