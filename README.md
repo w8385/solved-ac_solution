@@ -142,21 +142,21 @@ ratingByClass는 `자신이 취득한 클래스에 따른 레이팅`입니다.
 
 ### 2.3. ratingBySolvedCount
 ratingBySolvedCount은 `자신이 푼 문제 수에 따른 레이팅`입니다.   
-1140문제 정도 해결시, 최대치인 175점을 얻을 수 있습니다.
+1169문제 해결시, 최대치인 175점을 얻을 수 있습니다.
 
 ```math
 \begin{align}
-175 × (1 − 0.995^{푼 문제 수})
+\lfloor 175 × (1 − 0.995^{푼 문제 수}) \rceil
 \end{align}
 ```
 
 ### 2.4. ratingByVoteCount
 ratingByVoteCount은 `자신이 기여한 문제 수에 따른 레이팅`입니다.   
 P5 이상 사용자에 한해 기여 내역과 점수가 인정됩니다.   
-100문제 정도 기여시, 최대치인 25점을 얻을 수 있습니다.
+38문제 기여시, 최대치인 25점을 얻을 수 있습니다.
 
 ```math
 \begin{align}
-25 × (1 − 0.995^{기여한 문제 수})
+\lfloor 25 × (1 − 0.995^{기여한 문제 수}) \rceil
 \end{align}
 ```
